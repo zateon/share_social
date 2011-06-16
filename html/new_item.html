@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="CoffeeCup HTML Editor (www.coffeecup.com)">
+    <meta name="created" content="Thu, 02 Jun 2011 17:24:12 GMT">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title></title>
+    
+    <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  Hi {{name}}
+  Please Use the Following form To enter the item 
+  <body>
+<!-- Start of FORM -->
+<form method="post" action="createItem">
+Category : <select name="ItemType">
+	
+  <option value="1">BOOKS </option>
+  <option value="">CD</option>
+  <option value="">DVD</option>
+  <option value="">Songs</option>
+  <option value="">Tshirt</option>
+  <option value="">Video Game </option>
+  <option value="">Sport equipment</option>
+  <option selected value="">Accesory</option>
+</select>
+<p>Name : <input type="text" name="itemName" value="enter name of the item"></p>
+<input type="text" name="name" value="{{name}}">
+</p>Age Of Object : <input type="text" name="Age" value=""></p>
+<p>description for searchability <input type="text" name="description value=""></p>
+<input type="submit" name="submit" value="submit"><input type="reset">
+
+
+
+</form>
+<!-- End of FORM -->
+  </body>
+</html>

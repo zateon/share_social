@@ -1,0 +1,76 @@
+/* CSS Document */
+
+/*##############################################################
+  Eric Meyer's Reset.css (includes Baseline)
+##############################################################*/ 
+
+html, body, div, span,
+applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dd, dl, dt, li, ol, ul,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	line-height: 1;
+	font-family: inherit;
+	text-align: left;
+	vertical-align: baseline;
+}
+a img, :link img, :visited img {border: 0}
+table {border-collapse: collapse; border-spacing: 0}
+q:before, q:after,
+blockquote:before, blockquote:after {content: ""}
+
+/*##############################################################
+  Element Styles
+##############################################################*/
+
+h1 {margin-left:3px;padding-top:12px; padding-left:53px; font-size:45px; color:#fff; text-shadow:1px 1px #111; background:url(../images/example_logo.png) left 9px no-repeat}
+h3, h4, h5, h6 {margin:20px 0 15px 0; font-weight:bold; font-family:Futura; color:#fff}
+h2 {clear:both;margin:50px 0 15px 0; font-size:48pt; font-weight:bold; font-family:Futura; color:#fff}
+h3 {font-size:22px; font-weight:normal}
+ul, ol, dl, li {margin:0}
+p {width:100%; text-align:justify; margin:15px 0 0 0}
+a {color:#a63c3c; text-decoration:underline; outline:none}
+	a:hover {text-decoration:none}
+	
+.clear {clear:both; float:left}
+
+/*##############################################################
+  Layout Styles
+##############################################################*/
+
+body {font-size:14px; font-family:Helvetica, Arial, Verdana, sans-serif; color:#f1f0f0; background:#272322 url(../images/body_bg.jpg) 50% top repeat-x}
+
+#wrapper {width:830px; overflow:hidden; margin:0 auto; padding:0 220px}
+	
+	#header {float:left; width:960px; height:67px;margin:0 0 0px 5px}
+	
+	#navigation {float:left; display:inline; width:450px; list-style-type:none; padding-left:13px}
+		#navigation #index { padding-top:12px; height:63px; width:146px; border-left:2px groove #e1e3e3}
+		#navigation #about_us { padding-top:12px; height:63px; width:150px}
+		#navigation #contact_us { padding-top:12px; height:63px; width:146px}
+		#navigation li {float:right; margin:0; font-size:18px; border-right:2px groove #e1e3e3}
+			#navigation li a {display:block; height:41px; padding-top:16px; text-align:center; color:#0e7297; text-shadow:1px 1px #fff; text-decoration:none}
+				#navigation li a:hover {color:#272322; text-decoration:none}
+	
+	#content {width:804px; padding:0 13px}
+	
+		#main_content {float:left; display:inline; width:526px; margin:0 0 30px 0}
+			#main_content p {width:526px}
+			.two_columns {float:left; display:inline; margin-right:30px; width:247px}
+			#main_content .two_columns p {width:247px}
+			#main_content .right_column {margin:0}
+	
+		#sidebar {float:right; display:inline; width:247px; margin-left:30px}
+				
+		#footer {clear:both; padding:100px 0 30px 0; font-size:.85em}
+				

@@ -1,0 +1,17 @@
+<html>
+     <body>
+
+	     Welcome {{ name }}
+
+	    <p>Hi First Time User Please Enter Detail(not that we cant find out !) . Before You begin </p>
+              <form action="/createNew" method="post">
+		<div>NAME <input type="text" name="name" value="{{name}}" rows="1" cols="60"></textarea></div>
+                <div>AGE <input type="text" name="age" rows="1" cols="60"></textarea></div>
+                <div>SEX <input type="text" name="sex" rows="1" cols="60"></textarea></div>
+                <div>Description <textarea name="description" rows="3" cols="60"></textarea></div>
+		<div>Address <textarea name ="address" rows ="3" cols="60"></textarea></div>
+		<div><input type="submit" value="Enter Name "></div>
+              </form>
+            </body>
+          </html>
+
